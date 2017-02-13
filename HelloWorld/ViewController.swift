@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        label.text = "こんにちは世界"
+        label.text = "こんにちは世界!!"
         label.textAlignment = NSTextAlignment.center
         label.font = UIFont(name: "メイリオ", size: 20)
         self.view.addSubview(label)
